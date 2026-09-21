@@ -161,14 +161,14 @@ ul {
   right: 0;
   z-index: 1000;
   transition: var(--transition-smooth);
-  background-color: rgba(255, 255, 255, 0.96);
-  backdrop-filter: blur(12px);
-  border-bottom: 1px solid rgba(226, 232, 240, 0.8);
+  background-color: #ffffff !important;
+  border-bottom: 1px solid rgba(226, 232, 240, 0.9);
 }
 
 .site-header.scrolled {
-  box-shadow: var(--shadow-md);
-  background-color: rgba(255, 255, 255, 0.98);
+  background-color: #ffffff !important;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.06);
+  border-bottom: 1px solid #e2e8f0;
 }
 
 .header-container {
@@ -296,8 +296,8 @@ ul {
   padding: 130px 0 85px 0;
   background: 
     radial-gradient(circle at 85% 25%, rgba(224, 105, 55, 0.18) 0%, transparent 45%),
-    radial-gradient(circle at 15% 75%, rgba(59, 130, 246, 0.08) 0%, transparent 50%),
-    linear-gradient(135deg, rgba(11, 15, 25, 0.94) 0%, rgba(15, 23, 42, 0.92) 50%, rgba(17, 24, 39, 0.96) 100%),
+    radial-gradient(circle at 15% 75%, rgba(224, 105, 55, 0.08) 0%, transparent 50%),
+    linear-gradient(135deg, rgba(11, 15, 25, 0.96) 0%, rgba(17, 24, 39, 0.94) 50%, rgba(11, 15, 25, 0.98) 100%),
     url('https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=1600&auto=format&fit=crop') center/cover no-repeat;
   overflow: hidden;
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
@@ -856,12 +856,13 @@ ul {
   transform: translateX(4px);
 }
 
-/* --- 8. Simple Copyright Footer --- */
+/* --- 8. Logo-Matched Brand Footer --- */
 .site-footer {
-  background-color: var(--dark-footer);
-  color: #94a3b8;
-  padding: 36px 0;
-  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  background-color: #ffffff;
+  color: var(--text-muted);
+  padding: 42px 0 38px 0;
+  border-top: 3px solid var(--brand-orange);
+  box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.03);
 }
 
 .footer-simple-container {
@@ -872,39 +873,47 @@ ul {
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 24px;
 }
 
 .footer-brand {
   display: flex;
   align-items: center;
-  background: #ffffff;
-  padding: 6px 14px;
-  border-radius: var(--radius-sm);
-  box-shadow: var(--shadow-sm);
+  background: transparent;
+  padding: 0;
+  border-radius: 0;
+  box-shadow: none;
 }
 
 .footer-logo-img {
-  height: 36px;
+  height: 44px;
   width: auto;
   object-fit: contain;
   display: block;
 }
 
 .footer-copy {
-  font-size: 13.5px;
-  color: #94a3b8;
+  font-size: 14px;
+  color: #64748b;
+}
+
+.footer-copy strong {
+  color: var(--dark-hero);
+  font-weight: 700;
 }
 
 .footer-links {
   display: flex;
   align-items: center;
-  gap: 22px;
+  gap: 24px;
 }
 
 .footer-links a {
-  font-size: 13.5px;
-  color: #cbd5e1;
+  font-family: var(--font-heading);
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--dark-hero);
+  transition: var(--transition-smooth);
 }
 
 .footer-links a:hover {
@@ -976,7 +985,7 @@ ul {
 @media (max-width: 768px) {
   /* Navigation & Header */
   .site-header {
-    background-color: rgba(255, 255, 255, 0.98);
+    background-color: #ffffff !important;
   }
 
   .header-container {
