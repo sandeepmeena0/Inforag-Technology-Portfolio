@@ -572,7 +572,7 @@ document.addEventListener('DOMContentLoaded', () => {
       categoryLabel: 'Shops & Boutiques',
       url: 'https://erigooriginals.localo.site/',
       desc: 'Trendy lifestyle apparel store specializing in urban casuals and custom fashion styling.',
-      image: 'https://images.unsplash.com/photo-1525562723836-d6f07fe31270?q=80&w=800&auto=format&fit=crop'
+      image: 'https://images.unsplash.com/photo-1445205170230-053b83016050?q=80&w=800&auto=format&fit=crop'
     },
     {
       title: 'Seema Silai Centre & Studio',
