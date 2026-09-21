@@ -118,7 +118,8 @@ document.addEventListener('DOMContentLoaded', () => {
       categoryLabel: 'Salons & Beauty',
       url: 'https://www.lookssalon.in/',
       desc: 'Premier luxury salon chain offering bespoke hair styling, skin aesthetics, and bridal grooming.',
-      image: 'https://images.unsplash.com/photo-1560066984-138dadb4c035?q=80&w=800&auto=format&fit=crop'
+      image: 'https://images.unsplash.com/photo-1560066984-138dadb4c035?q=80&w=800&auto=format&fit=crop',
+      bestWork: true
     },
     {
       title: '28 Degree Salon',
@@ -270,7 +271,8 @@ document.addEventListener('DOMContentLoaded', () => {
       categoryLabel: 'Salons & Beauty',
       url: 'https://duckanddry.com/',
       desc: 'Trendy blowout and updo styling bar in London with signature hair treatments and Prosecco bars.',
-      image: 'https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388?q=80&w=800&auto=format&fit=crop'
+      image: 'https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388?q=80&w=800&auto=format&fit=crop',
+      bestWork: true
     },
     {
       title: 'Oxana Salon',
@@ -352,7 +354,8 @@ document.addEventListener('DOMContentLoaded', () => {
       categoryLabel: 'Clinics & Hospitals',
       url: 'https://www.olivaclinic.com/',
       desc: 'Pioneering medico-aesthetic clinic delivering US-FDA approved laser skin and trichology care.',
-      image: 'https://images.unsplash.com/photo-1629909613654-28e377c37b09?q=80&w=800&auto=format&fit=crop'
+      image: 'https://images.unsplash.com/photo-1629909613654-28e377c37b09?q=80&w=800&auto=format&fit=crop',
+      bestWork: true
     },
     {
       title: 'Richfeel Trichology Naturals',
@@ -416,7 +419,8 @@ document.addEventListener('DOMContentLoaded', () => {
       categoryLabel: 'Clinics & Hospitals',
       url: 'https://www.instantscripts.com.au/',
       desc: 'Rapid digital prescription, doctor consultation, and telehealth medical platform.',
-      image: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?q=80&w=800&auto=format&fit=crop'
+      image: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?q=80&w=800&auto=format&fit=crop',
+      bestWork: true
     },
 
     // --- CATEGORY: HOTELS AND RESTAURANTS ---
@@ -466,7 +470,8 @@ document.addEventListener('DOMContentLoaded', () => {
       categoryLabel: 'Hotels & Dining',
       url: 'https://theresidency.co.in/',
       desc: 'Celebrated four-star business hospitality group delivering lavish suites and premier banqueting.',
-      image: 'https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=800&auto=format&fit=crop'
+      image: 'https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=800&auto=format&fit=crop',
+      bestWork: true
     },
     {
       title: 'Second House Kolkata Dining',
@@ -514,7 +519,8 @@ document.addEventListener('DOMContentLoaded', () => {
       categoryLabel: 'Hotels & Dining',
       url: 'https://www.hotelamerpalace.com/',
       desc: 'Historic hospitality palace offering regal ambiance, grand conference facilities, and dining.',
-      image: 'https://images.unsplash.com/photo-1566665797739-1674de7a421a?q=80&w=800&auto=format&fit=crop'
+      image: 'https://images.unsplash.com/photo-1566665797739-1674de7a421a?q=80&w=800&auto=format&fit=crop',
+      bestWork: true
     },
     {
       title: 'Beacon Hotels & Resorts',
@@ -540,7 +546,8 @@ document.addEventListener('DOMContentLoaded', () => {
       categoryLabel: 'Shops & Boutiques',
       url: 'https://www.ekassignature.in/',
       desc: 'Bespoke ethnic couture, designer suits, and festive bridal ensembles made to measure.',
-      image: 'https://images.unsplash.com/photo-1441986300917-64674bd600d8?q=80&w=800&auto=format&fit=crop'
+      image: 'https://images.unsplash.com/photo-1441986300917-64674bd600d8?q=80&w=800&auto=format&fit=crop',
+      bestWork: true
     },
     {
       title: "Nakoda's Designer Boutique",
@@ -572,7 +579,8 @@ document.addEventListener('DOMContentLoaded', () => {
       categoryLabel: 'Shops & Boutiques',
       url: 'https://erigooriginals.localo.site/',
       desc: 'Trendy lifestyle apparel store specializing in urban casuals and custom fashion styling.',
-      image: 'https://images.unsplash.com/photo-1445205170230-053b83016050?q=80&w=800&auto=format&fit=crop'
+      image: 'https://images.unsplash.com/photo-1445205170230-053b83016050?q=80&w=800&auto=format&fit=crop',
+      bestWork: true
     },
     {
       title: 'Seema Silai Centre & Studio',
@@ -622,7 +630,8 @@ document.addEventListener('DOMContentLoaded', () => {
       categoryLabel: 'Consultancy',
       url: 'https://100consultant.com/',
       desc: 'Business development and scaling advisory firm helping SMEs optimize operations and growth.',
-      image: 'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=800&auto=format&fit=crop'
+      image: 'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=800&auto=format&fit=crop',
+      bestWork: true
     },
     {
       title: 'Patel Consultancy & Legal Advisors',
@@ -646,7 +655,8 @@ document.addEventListener('DOMContentLoaded', () => {
       categoryLabel: 'Consultancy',
       url: 'https://brandurbusiness.com/in',
       desc: 'Holistic brand management and marketing consultancy driving corporate visibility and sales.',
-      image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=800&auto=format&fit=crop'
+      image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=800&auto=format&fit=crop',
+      bestWork: true
     },
 
     // --- CATEGORY: REAL ESTATE ---
@@ -696,7 +706,8 @@ document.addEventListener('DOMContentLoaded', () => {
       categoryLabel: 'Real Estate',
       url: 'https://www.landacers.com/',
       desc: 'Specialist property consultancy for high-value agricultural plots, commercial lands, and investment.',
-      image: 'https://images.unsplash.com/photo-1580587771525-78b9dba3b914?q=80&w=800&auto=format&fit=crop'
+      image: 'https://images.unsplash.com/photo-1580587771525-78b9dba3b914?q=80&w=800&auto=format&fit=crop',
+      bestWork: true
     },
     {
       title: 'SAA One Luxury Real Estate',
@@ -738,7 +749,8 @@ document.addEventListener('DOMContentLoaded', () => {
       categoryLabel: 'E-Commerce',
       url: 'https://manthanstones.in/',
       desc: 'D2C online store for natural stones, granites, wall cladding, and architectural home decor.',
-      image: 'https://images.unsplash.com/photo-1600585152220-90363fe7e115?q=80&w=800&auto=format&fit=crop'
+      image: 'https://images.unsplash.com/photo-1600585152220-90363fe7e115?q=80&w=800&auto=format&fit=crop',
+      bestWork: true
     },
     {
       title: 'Sayoori Woman Ethnic Store',
@@ -754,7 +766,8 @@ document.addEventListener('DOMContentLoaded', () => {
       categoryLabel: 'E-Commerce',
       url: 'https://swastikmarbles.in/',
       desc: 'Online building supplies store for premium Italian marbles, tiles, quartz, and home finishes.',
-      image: 'https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=800&auto=format&fit=crop'
+      image: 'https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=800&auto=format&fit=crop',
+      bestWork: true
     },
     {
       title: 'Bhaarat Bazaar D2C Superstore',
@@ -850,10 +863,35 @@ document.addEventListener('DOMContentLoaded', () => {
   const portfolioGrid = document.getElementById('portfolioGrid');
   const projectCountSpan = document.getElementById('projectCount');
 
-  const renderPortfolio = (filter = 'salons') => {
+  // Exact user-specified sequence for Best Work
+  const bestWorkSequence = [
+    'The Residency Hotel',
+    'Hotel Amer Palace',
+    'InstantScripts Telehealth',
+    'Oliva Skin & Hair Clinic',
+    'Ekas Signature Boutique',
+    'Erigo Originals Fashion Studio',
+    'Brand Ur Business Marketing Consultants',
+    '100 Consultant Strategic Hub',
+    'Manthan Stones & Decor',
+    'Swastik Marbles & Tiles',
+    'Land Acers Property Consultants',
+    'Duck & Dry London',
+    'Looks Salon India'
+  ];
+
+  const renderPortfolio = (filter = 'bestwork') => {
     if (!portfolioGrid) return;
 
-    const filtered = portfolioData.filter(item => item.category === filter);
+    let filtered = [];
+    if (filter === 'bestwork') {
+      // Return in the exact specified mixed sequence
+      filtered = bestWorkSequence
+        .map(title => portfolioData.find(item => item.title === title))
+        .filter(Boolean);
+    } else {
+      filtered = portfolioData.filter(item => item.category === filter);
+    }
 
     if (projectCountSpan) {
       projectCountSpan.textContent = filtered.length;
@@ -884,8 +922,8 @@ document.addEventListener('DOMContentLoaded', () => {
     `).join('');
   };
 
-  // Initial render with first category (Salons & Beauty)
-  renderPortfolio('salons');
+  // Initial render with Best Work
+  renderPortfolio('bestwork');
 
   // 7. FILTER BUTTONS HANDLING
   const filterButtons = document.querySelectorAll('.filter-btn');

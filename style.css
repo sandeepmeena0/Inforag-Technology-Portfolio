@@ -697,6 +697,18 @@ ul {
   box-shadow: 0 4px 14px rgba(17, 24, 39, 0.2);
 }
 
+.filter-btn[data-filter="bestwork"] {
+  border-color: rgba(224, 105, 55, 0.4);
+  background-color: #fffaf7;
+}
+
+.filter-btn[data-filter="bestwork"].active {
+  background: linear-gradient(135deg, #111827 0%, #1f2937 100%);
+  border-color: var(--brand-orange);
+  box-shadow: 0 4px 16px rgba(224, 105, 55, 0.25);
+  color: #ffffff;
+}
+
 /* Portfolio Grid & Cards */
 /* Portfolio Grid & Cards (Direct Clickable Links) */
 .portfolio-grid {
