@@ -466,7 +466,7 @@ document.addEventListener('DOMContentLoaded', () => {
       categoryLabel: 'Hotels & Dining',
       url: 'https://theresidency.co.in/',
       desc: 'Celebrated four-star business hospitality group delivering lavish suites and premier banqueting.',
-      image: 'https://images.unsplash.com/photo-1544161515-4ab6ce6db874?q=80&w=800&auto=format&fit=crop'
+      image: 'https://images.unsplash.com/photo-1571896349842-33c89424de2d?q=80&w=800&auto=format&fit=crop'
     },
     {
       title: 'Second House Kolkata Dining',
