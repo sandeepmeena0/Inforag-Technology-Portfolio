@@ -947,4 +947,49 @@ document.addEventListener('DOMContentLoaded', () => {
   if (yearSpan) {
     yearSpan.textContent = new Date().getFullYear();
   }
+
+  // 9. Interactive Contact Modal Handling
+  const contactModal = document.getElementById('contactModal');
+  const contactModalClose = document.getElementById('contactModalClose');
+  const contactModalBackdrop = document.getElementById('contactModalBackdrop');
+  const contactTriggers = document.querySelectorAll('.contact-trigger-btn');
+
+  const openContactModal = (e) => {
+    if (e) e.preventDefault();
+    if (contactModal) {
+      contactModal.classList.add('active');
+      contactModal.setAttribute('aria-hidden', 'false');
+      document.body.style.overflow = 'hidden';
+      // Close mobile navigation menu if open
+      if (typeof closeMobileMenu === 'function') {
+        closeMobileMenu();
+      }
+    }
+  };
+
+  const closeContactModal = () => {
+    if (contactModal) {
+      contactModal.classList.remove('active');
+      contactModal.setAttribute('aria-hidden', 'true');
+      document.body.style.overflow = '';
+    }
+  };
+
+  contactTriggers.forEach(btn => {
+    btn.addEventListener('click', openContactModal);
+  });
+
+  if (contactModalClose) {
+    contactModalClose.addEventListener('click', closeContactModal);
+  }
+
+  if (contactModalBackdrop) {
+    contactModalBackdrop.addEventListener('click', closeContactModal);
+  }
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && contactModal && contactModal.classList.contains('active')) {
+      closeContactModal();
+    }
+  });
 });

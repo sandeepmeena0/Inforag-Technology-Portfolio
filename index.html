@@ -33,7 +33,8 @@
           <li><a href="#home" class="nav-link active">HOME</a></li>
           <li><a href="#about" class="nav-link">ABOUT US</a></li>
           <li><a href="#portfolio" class="nav-link">PORTFOLIO</a></li>
-          <li><a href="mailto:contact@inforagtechnology.com" class="nav-link nav-cta">GET IN TOUCH</a></li>
+          <li><button type="button" class="nav-link contact-trigger-btn" id="navContactBtn">CONTACT</button></li>
+          <li><a href="https://wa.me/919165234695" target="_blank" rel="noopener noreferrer" class="nav-link nav-cta">GET IN TOUCH</a></li>
         </ul>
       </nav>
 
@@ -243,10 +244,90 @@
         <a href="#home">Home</a>
         <a href="#about">About Us</a>
         <a href="#portfolio">Portfolio</a>
-        <a href="mailto:contact@inforagtechnology.com">Contact</a>
+        <button type="button" class="footer-contact-trigger contact-trigger-btn" id="footerContactBtn">Contact</button>
       </div>
     </div>
   </footer>
+
+  <!-- ==================== FLOATING WHATSAPP BUTTON ==================== -->
+  <a 
+    href="https://wa.me/919165234695" 
+    class="floating-whatsapp" 
+    target="_blank" 
+    rel="noopener noreferrer" 
+    aria-label="Chat with Inforag Technology on WhatsApp"
+    id="floatingWhatsApp"
+  >
+    <i class="fa-brands fa-whatsapp"></i>
+    <span class="floating-whatsapp-tooltip">Chat with us on WhatsApp</span>
+  </a>
+
+  <!-- ==================== INTERACTIVE CONTACT MODAL ==================== -->
+  <div class="contact-modal" id="contactModal" aria-hidden="true" role="dialog" aria-labelledby="contactModalTitle">
+    <div class="contact-modal-backdrop" id="contactModalBackdrop"></div>
+    <div class="contact-modal-card">
+      <button type="button" class="contact-modal-close" id="contactModalClose" aria-label="Close Contact Dialog">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+
+      <div class="contact-modal-header">
+        <div class="contact-badge">
+          <i class="fa-solid fa-headset"></i>
+          <span>CONTACT INFORMATION</span>
+        </div>
+        <h3 id="contactModalTitle">Get In Touch with Inforag Technology</h3>
+        <p>Reach out to our team directly via Call, WhatsApp, or Email for websites, custom software, and digital growth strategies.</p>
+      </div>
+
+      <div class="contact-modal-body">
+        <!-- Phone & WhatsApp Card -->
+        <div class="contact-channel-card">
+          <div class="channel-main">
+            <div class="channel-icon-wrap phone-icon">
+              <i class="fa-solid fa-phone-volume"></i>
+            </div>
+            <div class="channel-info">
+              <span class="channel-label">PHONE &amp; WHATSAPP</span>
+              <a href="tel:+919165234695" class="channel-value">+91 9165234695</a>
+            </div>
+          </div>
+          <div class="channel-actions">
+            <a href="tel:+919165234695" class="channel-btn btn-call" title="Call directly">
+              <i class="fa-solid fa-phone"></i>
+              <span>Call Now</span>
+            </a>
+            <a href="https://wa.me/919165234695" target="_blank" rel="noopener noreferrer" class="channel-btn btn-whatsapp" title="Chat on WhatsApp">
+              <i class="fa-brands fa-whatsapp"></i>
+              <span>WhatsApp</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Official Email Card -->
+        <div class="contact-channel-card">
+          <div class="channel-main">
+            <div class="channel-icon-wrap email-icon">
+              <i class="fa-solid fa-envelope"></i>
+            </div>
+            <div class="channel-info">
+              <span class="channel-label">OFFICIAL EMAIL</span>
+              <a href="mailto:info@inforag.com" class="channel-value">info@inforag.com</a>
+            </div>
+          </div>
+          <div class="channel-actions">
+            <a href="mailto:info@inforag.com" class="channel-btn btn-email" title="Send an Email">
+              <i class="fa-solid fa-paper-plane"></i>
+              <span>Send Email</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-modal-footer">
+        <span><i class="fa-solid fa-clock"></i> Fast Response • Mon – Sat: 9:30 AM – 7:30 PM IST</span>
+      </div>
+    </div>
+  </div>
 
   <!-- Vanilla JavaScript -->
   <script src="script.js"></script>
