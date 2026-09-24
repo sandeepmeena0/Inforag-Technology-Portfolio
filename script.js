@@ -710,6 +710,15 @@ document.addEventListener('DOMContentLoaded', () => {
       bestWork: true
     },
     {
+      title: 'Sippy Housing Luxury Real Estate',
+      category: 'realestate',
+      categoryLabel: 'Real Estate',
+      url: 'https://www.sippyhousing.com',
+      desc: 'Premium luxury residences, prime investment properties, and exclusive real estate developments.',
+      image: 'https://images.unsplash.com/photo-1613490493576-7fde63acd811?q=80&w=800&auto=format&fit=crop',
+      bestWork: true
+    },
+    {
       title: 'SAA One Luxury Real Estate',
       category: 'realestate',
       categoryLabel: 'Real Estate',
@@ -876,6 +885,7 @@ document.addEventListener('DOMContentLoaded', () => {
     'Manthan Stones & Decor',
     'Swastik Marbles & Tiles',
     'Land Acers Property Consultants',
+    'Sippy Housing Luxury Real Estate',
     'Duck & Dry London',
     'Looks Salon India'
   ];
