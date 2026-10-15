@@ -298,6 +298,24 @@ document.addEventListener('DOMContentLoaded', () => {
       desc: 'High-concept creative studio setting new benchmarks in hair styling and fashion artistry.',
       image: 'https://images.unsplash.com/photo-1519415510236-718bdfcd89c8?q=80&w=800&auto=format&fit=crop'
     },
+    {
+      title: 'Lore Natural Skincare & Beauty',
+      category: 'salons',
+      categoryLabel: 'Salons & Beauty',
+      url: 'https://www.lorenatural.com/',
+      desc: 'Clean organic skincare formulations, nourishing botanical cleansers, restorative toners, and conscious self-care rituals.',
+      image: 'https://images.unsplash.com/photo-1556228720-195a672e8a03?q=80&w=800&auto=format&fit=crop',
+      bestWork: true
+    },
+    {
+      title: 'My Tarot Queen Wellness & Readings',
+      category: 'salons',
+      categoryLabel: 'Salons & Beauty',
+      url: 'https://mytarotqueen.com/',
+      desc: 'Empowering spiritual wellness platform providing insightful tarot readings, podcasts, guidance, and intuitive mindfulness.',
+      image: 'https://images.unsplash.com/photo-1633511090164-b43840ea1607?q=80&w=800&auto=format&fit=crop',
+      bestWork: true
+    },
 
     // --- CATEGORY: CLINICS AND HOSPITALS ---
     {
@@ -420,6 +438,15 @@ document.addEventListener('DOMContentLoaded', () => {
       url: 'https://www.instantscripts.com.au/',
       desc: 'Rapid digital prescription, doctor consultation, and telehealth medical platform.',
       image: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?q=80&w=800&auto=format&fit=crop',
+      bestWork: true
+    },
+    {
+      title: 'Gayatri Blood Collection Center & Diagnostics',
+      category: 'clinics',
+      categoryLabel: 'Clinics & Hospitals',
+      url: 'https://gayatribloodcollectioncenter.com/',
+      desc: 'Advanced diagnostic pathology center offering blood tests, digital imaging, MRI, CT scans, and preventive healthcare packages.',
+      image: 'https://images.unsplash.com/photo-1579154204601-01588f351e67?q=80&w=800&auto=format&fit=crop',
       bestWork: true
     },
 
@@ -865,6 +892,37 @@ document.addEventListener('DOMContentLoaded', () => {
       url: 'https://www.getbanaya.in/',
       desc: 'Personalized gifting and custom merchandise platform for birthdays, weddings, and corporates.',
       image: 'https://images.unsplash.com/photo-1513885535751-8b9238bd345a?q=80&w=800&auto=format&fit=crop'
+    },
+
+    // --- CATEGORY: COACHING & EDUCATION ---
+    {
+      title: 'Genie Classes Online Tutoring',
+      category: 'coaching',
+      categoryLabel: 'Coaching & Education',
+      url: 'https://genieclasses.com/',
+      desc: 'Interactive 1-on-1 live online tuition, personalized academic coaching, and group learning programs with expert educators.',
+      image: 'https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=800&auto=format&fit=crop',
+      bestWork: true
+    },
+    {
+      title: 'The Wild Click Academy & Agency',
+      category: 'coaching',
+      categoryLabel: 'Coaching & Education',
+      url: 'https://thewildclick.com/',
+      desc: 'Creative media masterclasses, hands-on digital photography coaching, and data-driven strategic brand storytelling.',
+      image: 'https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D',
+      bestWork: true
+    },
+
+    // --- CATEGORY: INTERIOR DESIGN ---
+    {
+      title: 'Meraki Homes Interior Design',
+      category: 'interior',
+      categoryLabel: 'Interior Design',
+      url: 'https://meraki-homes.com/',
+      desc: 'Bespoke interior design studio specializing in luxury residential spaces, modular kitchens, and contemporary living concepts.',
+      image: 'https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=800&auto=format&fit=crop',
+      bestWork: true
     }
   ];
 
@@ -878,14 +936,20 @@ document.addEventListener('DOMContentLoaded', () => {
     'Hotel Amer Palace',
     'InstantScripts Telehealth',
     'Oliva Skin & Hair Clinic',
+    'Gayatri Blood Collection Center & Diagnostics',
     'Ekas Signature Boutique',
     'Erigo Originals Fashion Studio',
     'Brand Ur Business Marketing Consultants',
     '100 Consultant Strategic Hub',
+    'Genie Classes Online Tutoring',
+    'The Wild Click Academy & Agency',
     'Manthan Stones & Decor',
     'Swastik Marbles & Tiles',
+    'Meraki Homes Interior Design',
     'Land Acers Property Consultants',
     'Sippy Housing Luxury Real Estate',
+    'Lore Natural Skincare & Beauty',
+    'My Tarot Queen Wellness & Readings',
     'Duck & Dry London',
     'Looks Salon India'
   ];
