@@ -376,6 +376,7 @@ ul {
   margin-bottom: 22px;
   letter-spacing: -0.5px;
   text-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+  white-space: nowrap;
   overflow: visible;
 }
 
@@ -1653,6 +1654,7 @@ ul {
     margin-bottom: 16px;
     text-align: center;
     width: 100%;
+    white-space: nowrap;
   }
 
   .hero-tagline {
