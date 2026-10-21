@@ -394,6 +394,12 @@ ul {
   margin-bottom: 36px;
 }
 
+.hero-actions-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
 .hero-actions {
   display: flex;
   align-items: center;
@@ -424,6 +430,48 @@ ul {
   background: rgba(255, 255, 255, 0.18);
   border-color: #ffffff;
   transform: translateY(-2px);
+}
+
+/* WhatsApp Hero Button */
+.hero-actions .btn-whatsapp-hero {
+  background: linear-gradient(135deg, #25D366 0%, #128C7E 100%);
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  box-shadow: 0 8px 24px rgba(37, 211, 102, 0.35);
+  font-weight: 600;
+}
+
+.hero-actions .btn-whatsapp-hero i {
+  font-size: 19px;
+  color: #ffffff;
+}
+
+.hero-actions .btn-whatsapp-hero:hover {
+  background: linear-gradient(135deg, #28e26e 0%, #15a090 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 12px 30px rgba(37, 211, 102, 0.5);
+  color: #ffffff;
+}
+
+/* Call Us Hero Button */
+.hero-actions .btn-call-hero {
+  background: linear-gradient(135deg, #0284c7 0%, #0369a1 100%);
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  box-shadow: 0 8px 24px rgba(2, 132, 199, 0.35);
+  font-weight: 600;
+}
+
+.hero-actions .btn-call-hero i {
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.hero-actions .btn-call-hero:hover {
+  background: linear-gradient(135deg, #0ea5e9 0%, #1d4ed8 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 12px 30px rgba(2, 132, 199, 0.5);
+  color: #ffffff;
 }
 
 /* Hero Right Team Image */
@@ -1300,6 +1348,10 @@ ul {
     margin-right: auto;
   }
 
+  .hero-actions-wrapper {
+    align-items: center;
+  }
+
   .hero-actions {
     justify-content: center;
   }
@@ -1464,14 +1516,21 @@ ul {
     max-width: 520px;
   }
 
+  .hero-actions-wrapper {
+    width: 100%;
+    max-width: 330px;
+    margin: 0 auto;
+    gap: 10px;
+  }
+
   .hero-actions {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
-    max-width: 300px;
+    max-width: 100%;
     margin: 0 auto;
-    gap: 12px;
+    gap: 10px;
   }
 
   .hero-actions .btn {
